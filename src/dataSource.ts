@@ -3,6 +3,8 @@ import 'reflect-metadata';
 import { DataSource } from 'typeorm';
 
 export const AppDataSource = new DataSource({
+
+
   type: 'postgres',
   host: 'localhost',
   port: parseInt(process.env.POSTGRES_PORT || '5432'),
@@ -11,4 +13,6 @@ export const AppDataSource = new DataSource({
   database: process.env.POSTGRES_DB,
   entities: [__dirname + '/domain/entities/*.ts'],
   synchronize: true, // Use apenas para desenvolvimento!
+
+
 });
