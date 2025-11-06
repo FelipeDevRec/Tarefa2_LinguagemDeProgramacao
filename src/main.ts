@@ -1,7 +1,7 @@
 import "reflect-metadata";
 import express from "express";
-import { AppDataSource } from "./dataSource.js";
-import { FuncionarioController } from "./controllers/FuncionarioController.js";
+import { AppDataSource } from "./dataSource";
+import { FuncionarioController } from "./controllers/FuncionarioController";
 
 const app = express();
 app.use(express.json());

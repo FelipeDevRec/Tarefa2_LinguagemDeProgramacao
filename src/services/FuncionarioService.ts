@@ -1,5 +1,5 @@
-import { Funcionario } from "../domain/entities/Funcionario.js";
-import { FuncionarioRepository } from "../repository/FuncionarioRepository.js";
+import { Funcionario } from "../domain/entities/Funcionario";
+import { FuncionarioRepository } from "../repository/FuncionarioRepository";
 
 export class FuncionarioService {
   private repo = new FuncionarioRepository();

@@ -1,7 +1,7 @@
 import { Request, Response } from "express";
-import { FuncionarioService } from "../services/FuncionarioService.js";
-import { Professor } from "../domain/entities/Professor.js";
-import { Administrativo } from "../domain/entities/Administrativo.js";
+import { FuncionarioService } from "../services/FuncionarioService";
+import { Professor } from "../domain/entities/Professor";
+import { Administrativo } from "../domain/entities/Administrativo";
 
 const service = new FuncionarioService();
 

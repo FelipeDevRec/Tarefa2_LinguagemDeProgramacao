@@ -1,5 +1,5 @@
 import { ChildEntity, Column } from "typeorm";
-import { Funcionario } from "./Funcionario.js";
+import { Funcionario } from "./Funcionario";
 
 @ChildEntity()
 export class Professor extends Funcionario {

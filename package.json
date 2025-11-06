@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "CRUD de funcionários com Express, TypeORM e Postgres",
   "main": "dist/main.js",
-  "type": "module",
   "scripts": {
     "start": "npx ts-node-dev --respawn --transpile-only src/main.ts",
     "build": "tsc",

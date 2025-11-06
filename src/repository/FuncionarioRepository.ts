@@ -1,5 +1,5 @@
-import { AppDataSource } from "../dataSource.js";
-import { Funcionario } from "../domain/entities/Funcionario.js";
+import { AppDataSource } from "../dataSource";
+import { Funcionario } from "../domain/entities/Funcionario";
 
 export class FuncionarioRepository {
   private repo = AppDataSource.getRepository(Funcionario);
