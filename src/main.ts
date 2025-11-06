@@ -12,6 +12,7 @@ app.get("/funcionarios/:cpf", FuncionarioController.buscarPorCpf);
 app.put("/funcionarios/:id", FuncionarioController.editar);
 app.delete("/funcionarios/:id", FuncionarioController.excluir);
 
+
 const PORT = 3000;
 
 AppDataSource.initialize()
